@@ -3,7 +3,7 @@ console.log(user);
 const student = 'Liza';
 console.log(student);
 user = student; //'Liza'
-console.log(student);
+console.log(user);
 
 let test = 1;
 test += 1;
@@ -11,7 +11,7 @@ test += '1'; //'21'
 console.log(test);
 test -= 1; //20
 console.log(test);
-test = !test; //false
+test = !!test; //true
 console.log(test);
 
 const arr = [2, 3, 5, 8];
