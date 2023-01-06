@@ -48,13 +48,12 @@ console.log('lesson-3');
 function palindrome(str) {
   for (let i = 0; i < str.length / 2; i++) {
     if (str[i] !== str[str.length - i - 1]) {
-      console.log('no');
-      return;
+      return false;
     }
   }
-  console.log('yes');
+  return true;
 }
-palindrome('wow');
+console.log(palindrome('wow'));
 
 function minOne(a, b) {
   if (a < b) {
